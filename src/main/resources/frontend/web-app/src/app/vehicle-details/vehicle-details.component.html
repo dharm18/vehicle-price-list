@@ -1,0 +1,46 @@
+<div *ngIf="vehicle" class="col-xs-12">
+        <div class="margin-20">
+           <h4>View Vehicle</h4>
+        </div>
+
+        <div class="form-group">
+            <label for="name">Make Name</label>:
+            {{vehicle.makeName}}
+        </div>
+
+        <div class="form-group">
+            <label for="name">Model Name</label>:
+            {{vehicle.modelName}}
+        </div>
+
+        <div class="form-group">
+            <label for="name">Model Edition</label>:
+            {{vehicle.modelEdition}}
+        </div>
+
+            
+            <div  *ngFor="let options of vehicle.vehicleOptions; let i=index" class="panel panel-default">
+                <!-- address header, show remove button when more than one address available -->
+                <div class="panel-heading">
+                    <span>Vehicle Option {{i + 1}}</span>
+                </div>
+
+                <!-- Angular assigns array index as group name by default 0, 1, 2, ... -->
+                <div class="panel-body">
+                    <!--name-->
+                    <div class="form-group col-xs-6">
+                        <label>Name</label>:{{options.name}}
+                    </div>
+                    <!--price-->
+                    <div class="form-group col-xs-6">
+                        <label>Price</label>: {{options.price}}
+                    </div>
+                </div>
+
+            </div>
+            
+
+            <div class="margin-20">
+                    <button (click)="list()" class="btn btn-primary">Back to Vehicle List</button><br>
+            </div>
+    </div>
