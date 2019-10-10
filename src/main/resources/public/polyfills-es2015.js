@@ -6370,8 +6370,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\STS-4.2.2\sts-workspace\vehicle-price-list\src\main\resources\frontend\web-app\src\polyfills.ts */"./src/polyfills.ts");
-module.exports = __webpack_require__(/*! D:\STS-4.2.2\sts-workspace\vehicle-price-list\src\main\resources\frontend\web-app\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\jit-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js");
+__webpack_require__(/*! D:\Github Repo\vehicle-price-list\src\main\resources\frontend\web-app\src\polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! D:\Github Repo\vehicle-price-list\src\main\resources\frontend\web-app\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\jit-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js");
 
 
 /***/ })
