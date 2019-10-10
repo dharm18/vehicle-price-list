@@ -1,0 +1,3 @@
+[submodule "src/main/resources/frontend/web-app"]
+	path = src/main/resources/frontend/web-app
+	url = https://github.com/dharm18/vehicle-price-list.git
