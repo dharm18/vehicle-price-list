@@ -7,6 +7,8 @@ How to run
 
 vehicle-price-list/src/main/java/com/dharam/leaseplan/VehiclePriceListApplication.java
 
+URL: http://localhost:8080
+
 2. Web UI
 Dist files : It is built using angular 8 and final generated files are located in /src/main/resources/public folder
 Source Code: /src/main/resources/frontend/web-app
