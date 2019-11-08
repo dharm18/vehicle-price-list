@@ -12,4 +12,5 @@ URL: http://localhost:8080
 2. Web UI
 Dist files : It is built using angular 8 and final generated files are located in /src/main/resources/public folder
 Source Code: /src/main/resources/frontend/web-app
+To start front end code: go to source app and run : npm start 
  
