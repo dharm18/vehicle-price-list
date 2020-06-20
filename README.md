@@ -1,4 +1,4 @@
-# vehicle-price-list
+# vehicle-price-list ![Build project](https://github.com/dharm18/vehicle-price-list/workflows/Build%20project/badge.svg)
 It's spring boot application with Angular 8 in the front end. Both the code bases are in the same repository. 
 
 How to run
